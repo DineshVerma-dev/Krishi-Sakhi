@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 export default function KrishiSakhiLanding() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
    
@@ -19,9 +19,12 @@ export default function KrishiSakhiLanding() {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-gray-700 hover:text-green-600 font-medium transition-colors">Home</a>
+            {/* <a href="#" className="text-gray-700 hover:text-green-600 font-medium transition-colors">Home</a> */}
+            <Link to="/" className="text-gray-700 hover:text-green-600 font-medium">Home</Link>
             <a href="#" className="text-gray-700 hover:text-green-600 font-medium transition-colors">Services</a>
-            <a href="#" className="text-green-600 font-medium border-b-2 border-green-600">About</a>
+            <Link to="/about" className="text-green-600 font-medium border-b-2 border-green-600">
+  About
+</Link>
             <a href="#" className="text-gray-700 hover:text-green-600 font-medium transition-colors">Contact</a>
           </div>
           
