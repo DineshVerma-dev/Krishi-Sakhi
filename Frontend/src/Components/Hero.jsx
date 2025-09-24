@@ -21,11 +21,15 @@ export default function KrishiSakhiLanding() {
           <div className="hidden md:flex items-center space-x-8">
             {/* <a href="#" className="text-gray-700 hover:text-green-600 font-medium transition-colors">Home</a> */}
             <Link to="/" className="text-gray-700 hover:text-green-600 font-medium">Home</Link>
-            <a href="#" className="text-gray-700 hover:text-green-600 font-medium transition-colors">Services</a>
+            <Link to="/engine" className="text-gray-700 hover:text-green-600 font-medium">Engine</Link>
+           
             <Link to="/about" className="text-green-600 font-medium border-b-2 border-green-600">
-  About
-</Link>
-            <a href="#" className="text-gray-700 hover:text-green-600 font-medium transition-colors">Contact</a>
+              About
+            </Link>
+            <Link to="/chatbot" className="text-green-600 font-medium border-b-2 border-green-600">
+              Chatbot
+            </Link>
+            <Link to="/contact" className="text-gray-700 hover:text-green-600 font-medium transition-colors">Contact</Link>
           </div>
           
           <a
