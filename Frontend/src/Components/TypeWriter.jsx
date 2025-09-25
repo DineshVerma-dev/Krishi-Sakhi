@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 export default function TypewriterText() {
   return (
-    <h1 className="text-4xl font-bold text-green-700 whitespace-nowrap overflow-hidden">
+    <span className="whitespace-nowrap overflow-hidden">
       <Typewriter
         words={[
           "Empowering Farmers",
@@ -20,11 +20,11 @@ export default function TypewriterText() {
         ]}
         loop={true}
         cursor
-        cursorStyle="."
+        cursorStyle="|"
         typeSpeed={70}
         deleteSpeed={50}
         delaySpeed={1500}
       />
-    </h1>
+    </span>
   );
 }

@@ -45,9 +45,10 @@ export default function HomePage() {
       <div className="min-h-screen bg-gradient-to-b from-green-50 via-white to-green-50 flex flex-col justify-center items-center px-6 py-12 text-center relative overflow-hidden">
         <main className="max-w-5xl w-full">
           {/* Animated Slogan */}
-          <h1 className="text-2xl sm:text-5xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-green-600 to-emerald-400 bg-clip-text text-transparent whitespace-nowrap">
-            <TypewriterText />
-          </h1>
+         <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-green-600 to-emerald-400 bg-clip-text text-transparent">
+  <TypewriterText />
+</h1>
+
 
           {/* Static Title */}
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-gray-800 mb-6">
