@@ -6,7 +6,7 @@ const englishLabels = {
   home: "Home",
   chatbot: "Chatbot",
   smartengine: "Smart Engine",
-  overview: "Overview",
+  overview: "Project Overview",
   profile : "Profile",
 };
 
@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="flex gap-6">
         <a href="/">{labels.home}</a>
         <a href="https://studio--krishi-sakhi-2-97250922-56aa0.us-central1.hosted.app/">{labels.chatbot}</a>
-        <a href="/smartengine">{labels.smartengine}</a>
+        <a href="https://9000-firebase-sih-1758337441954.cluster-fdkw7vjj7bgguspe3fbbc25tra.cloudworkstations.dev/?monospaceUid=820435/">{labels.smartengine}</a>
         <a href="https://v0-farming-assistant-app-rust.vercel.app/">{labels.overview}</a>
         <a href="/profile">{labels.profile}</a>
       </div>
