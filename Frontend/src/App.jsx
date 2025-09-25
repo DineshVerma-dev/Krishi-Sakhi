@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-import {HeroSection} from './pages/About'
-import {HomePage} from "./pages/HomePage";
+import HeroSection from "./pages/About";
+import HomePage from "./pages/HomePage";
 import Profile from "./pages/FarmProfiling";
 
 function App() {
