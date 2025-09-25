@@ -8,6 +8,8 @@ const englishLabels = {
   smartengine: "Smart Engine",
   overview: "Project Overview",
   profile : "Profile",
+  about : "About",
+  
 };
 
 export default function Navbar() {
@@ -36,6 +38,7 @@ export default function Navbar() {
         <a href="https://9000-firebase-sih-1758337441954.cluster-fdkw7vjj7bgguspe3fbbc25tra.cloudworkstations.dev/?monospaceUid=820435/">{labels.smartengine}</a>
         <a href="https://v0-farming-assistant-app-rust.vercel.app/">{labels.overview}</a>
         <a href="/profile">{labels.profile}</a>
+        <a href="/about">{labels.about}</a>
       </div>
 
       <div className="flex gap-3">
